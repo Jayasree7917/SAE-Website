@@ -171,6 +171,7 @@ body {
   .subheading p{
     font-size: 20px;
   }
+
 }
 
 .card-container, .boxes {
@@ -324,15 +325,15 @@ body {
   }
 
   .title-1 {
-    font-size: 15.5px;
+    font-size: 14px;
   }
 
   .title-2 {
-    font-size: 15.5px;
+    font-size: 14px;
   }
 
   .title-3 {
-    font-size: 16.5px;
+    font-size: 14px;
   }
 }
 
@@ -347,6 +348,17 @@ body {
   }
 
   .title {
+    font-size: 12px;
+  }
+  .title-1 {
+    font-size: 15px;
+  }
+
+  .title-2 {
+    font-size: 15px;
+  }
+
+  .title-3 {
     font-size: 15px;
   }
 }

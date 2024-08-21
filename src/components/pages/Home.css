@@ -89,14 +89,6 @@ body {
   }
 }
 
-
-@media (max-width: 480px) {
-  
-  .heading h1 {
-    font-size: 15vw; 
-  }
-}
-
 .animated-line {
   width: 80%; 
   height: 2px; 
@@ -129,8 +121,11 @@ body {
 }
 
 @media (max-width: 480px) {
+  .heading h1 {
+    font-size: 15vw; 
+  }
   .heading p {
-    font-size: 23px;
+    font-size: 21px;
     white-space: normal;
     word-break: break-word; 
     overflow-wrap: break-word; 
@@ -325,15 +320,15 @@ body {
   }
 
   .title-1 {
-    font-size: 14px;
+    font-size: 14.px;
   }
 
   .title-2 {
-    font-size: 14px;
+    font-size: 14.5px;
   }
 
   .title-3 {
-    font-size: 14px;
+    font-size: 14.5px;
   }
 }
 

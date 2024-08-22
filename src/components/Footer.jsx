@@ -19,14 +19,13 @@ export const Footer = () => {
             <div className="social">
                             {/* Instagram */}
                 <div className="icons">
-                            
+                <a href='https://www.instagram.com/sae.nitd' target="_blank" rel="noopener noreferrer">
                                 <svg
                                     height="30px"
                                     width="30px"
                                     viewBox="0 0 256 256"
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="instagram"
-                                    href='https://www.instagram.com/sae.nitd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
                                 >
                                     <g transform="scale(8,8)">
                                         <path
@@ -34,43 +33,47 @@ export const Footer = () => {
                                         ></path>
                                     </g>
                                 </svg>
+                                </a>
                             </div>
 
                             {/* YouTube */}
                             <div className="icons">
+                            <a href='https://www.youtube.com/@saenitdgp' target="_blank" rel="noopener noreferrer">
                                 <svg
                                     height="30px"
                                     width="30px"
                                     viewBox="0 0 48 48"
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="youtube"
-                                    href='https://www.youtube.com/@saenitdgp'
                                 >
                                     <path
                                         d="M43.611,15.202c0,0-0.428-3.031-1.744-4.364c-1.671-1.752-3.541-1.759-4.393-1.861C32.607,8,24,8,24,8h-0.016c0,0-8.606,0-13.471,0.975c-0.852,0.102-2.723,0.109-4.393,1.861C5.796,12.171,5.369,15.202,5.369,15.202S5,18.644,5,22.088v3.866c0,3.444,0.369,6.887,0.369,6.887s0.428,3.031,1.744,4.364c1.671,1.752,3.858,1.7,4.829,1.887C14.393,39.992,24,40,24,40s8.607-0.008,13.471-0.975c0.852-0.102,2.723-0.109,4.393-1.861c1.316-1.333,1.744-4.364,1.744-4.364S43,29.398,43,25.954v-3.866C43,18.644,43.611,15.202,43.611,15.202z"
                                     />
                                     <polygon fill="#FFFFFF" points="19.615,30.923 30.769,24.962 19.615,19.077" />
                                 </svg>
+                                </a>
                             </div>
 
-                            {/* LinkedIn */}
-                            <div className="icons">
-                                <svg
-                                    height="30px"
-                                    width="30px"
-                                    viewBox="0 0 448 512"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="linkedin"
-                                    href='https://www.linkedin.com/company/sae-india-nit-dgp-collegiate-chapter/'
-                                >
-                                    <path
-                                        d="M100.28 448H7.4V149.5h92.78zm-46.29-344A53.69 53.69 0 0 1 .63 50.6 53.7 53.7 0 0 1 53.83 0a53.69 53.69 0 1 1 0 107.39zm394.2 296.57V448H354.59V303.44c0-34.49-13.63-58.02-44.75-58.02-24.31 0-38.79 16.41-45.17 32.23-2.33 5.69-2.91 13.61-2.91 21.6V448H170.74c.61-141.61 0-249.5 0-298.49h92.57v42.31c-6.7-10.29-32.71-24.94-72.59-24.94-52.74 0-91.64 33.81-91.64 106.52V448H67.4V149.5h92.78v42.3h.61c12.13-20.21 42.69-49.4 93.18-49.4 68.06 0 119.1 44.46 119.1 140.12V448z"
-                                    />
-                                </svg>
-                            </div>
+                                {/* LinkedIn */}
+                                <div className="icons">
+                                    <a href='https://www.linkedin.com/company/sae-india-nit-dgp-collegiate-chapter/' target="_blank" rel="noopener noreferrer">
+                                    <svg
+                                        height="30px"
+                                        width="30px"
+                                        viewBox="0 0 448 512"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="linkedin"
+                                    >
+                                        <path
+                                            d="M100.28 448H7.4V149.5h92.78zm-46.29-344A53.69 53.69 0 0 1 .63 50.6 53.7 53.7 0 0 1 53.83 0a53.69 53.69 0 1 1 0 107.39zm394.2 296.57V448H354.59V303.44c0-34.49-13.63-58.02-44.75-58.02-24.31 0-38.79 16.41-45.17 32.23-2.33 5.69-2.91 13.61-2.91 21.6V448H170.74c.61-141.61 0-249.5 0-298.49h92.57v42.31c-6.7-10.29-32.71-24.94-72.59-24.94-52.74 0-91.64 33.81-91.64 106.52V448H67.4V149.5h92.78v42.3h.61c12.13-20.21 42.69-49.4 93.18-49.4 68.06 0 119.1 44.46 119.1 140.12V448z"
+                                        />
+                                    </svg>
+                                    </a>
+                                </div>
 
                             {/* Facebook */}
                             <div className="icons" >
+                            <a href='https://www.facebook.com/SAENITD/' target="_blank" rel="noopener noreferrer">
                                 <svg
                                     height="30px"
                                     width="30px"
@@ -82,7 +85,7 @@ export const Footer = () => {
                                         d="M279.14 288l14.22-92.66h-88.91V134.5c0-25.35 12.42-50.06 52.24-50.06H293V6.26S259.63 0 225.36 0c-73.22 0-121.1 44.38-121.1 124.72v70.62H22.89V288h81.38v224h100.2V288z"
                                     />
                                 </svg>
-                                
+                                </a>
                             </div>
                             <div className='follow-us'><h3>Follow Us</h3></div>
                         </div>

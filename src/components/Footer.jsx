@@ -149,11 +149,11 @@ export const Footer = () => {
                                                     <li>(President)</li>
                                                         <li>
                                                             <i className="fa fa-envelope" id="Cont" ></i>
-                                                            <a href="mailto:president.saeindia@nitdgp.ac.in" className='anchor'>siddharthkhandelwal78@gmail.com</a>
+                                                            <a href="mailto:siddharthkhandelwal78@gmail.com" className='anchor'>siddharthkhandelwal78@gmail.com</a>
                                                         </li>
                                                     <li>
                                                         <i className="fa fa-phone" ></i>
-                                                        <a href="tel:+918574613029" className='anchor'>+91 6371657152</a>
+                                                        <a href="tel:+916371657152" className='anchor'>+91 6371657152</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -166,11 +166,11 @@ export const Footer = () => {
                                                     <li>(Head of Corporate Communication)</li>
                                                     <li>
                                                         <i className="fa fa-envelope"></i>
-                                                        <a href="mailto:rathoreasutosh3006@gmail.com" className='anchor'>rathoreasutosh3006@gmail.com</a>
+                                                        <a href="mailto:prasant999.sahu@gmail.com" className='anchor'>prasant999.sahu@gmail.com</a>
                                                     </li>
                                                     <li>
                                                         <i className="fa fa-phone"></i>
-                                                        <a href="tel:+916396277108" className='anchor'>+91 7908622520</a>
+                                                        <a href="tel:+917908622520" className='anchor'>+91 7908622520</a>
                                                     </li>
                                                 </ul>
                                             </div>
